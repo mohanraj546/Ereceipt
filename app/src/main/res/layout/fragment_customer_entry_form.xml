@@ -28,6 +28,7 @@
                     android:layout_marginBottom="@dimen/acct_reg_edt_margin">
 
                 <Spinner
+                    android:dropDownVerticalOffset="@dimen/cus_ent_frm_spn_ht"
                     android:spinnerMode="dropdown"
                     android:id="@+id/spn_companies"
                     android:layout_width="match_parent"
