@@ -46,8 +46,8 @@ public class VendorEntryFormFragment extends Fragment implements View.OnClickLis
 
     private void setDataToViews() {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_spinner_item, companies);
-        //spn_companies.setAdapter(adapter);
+               R.layout.spinner_item, companies);
+        spn_companies.setAdapter(adapter);
         addItems(count);
     }
 

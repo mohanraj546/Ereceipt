@@ -51,7 +51,7 @@ public class CustomerEntryFormFragment extends Fragment implements View.OnClickL
 
     private void setDataToViews() {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_spinner_item, companies);
+               R.layout.spinner_item, companies);
         spn_companies.setAdapter(adapter);
         addItems(count);
     }

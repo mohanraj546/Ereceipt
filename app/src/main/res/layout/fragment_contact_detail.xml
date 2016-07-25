@@ -186,6 +186,7 @@
                 </RelativeLayout>
 
                 <RelativeLayout
+                    android:id="@+id/rel_remove"
                     android:background="@drawable/border_acct_reg"
                     android:layout_width="@dimen/cmpy_det_rel_edit_width"
                     android:layout_height="@dimen/cmpy_det_rel_edit_height"
