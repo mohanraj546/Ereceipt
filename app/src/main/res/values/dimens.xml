@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--splash screen-->
+    <dimen name="splash_progress_bar_bottom">60dp</dimen>
+
+    <!--Navigation menu dimensions-->
+    <dimen name="drawer_header_width">297dp</dimen>
+    <dimen name="drawer_header_height">185dp</dimen>
+    <dimen name="drawer_header_margin_left">25dp</dimen>
+    <dimen name="drawer_header_margin_bottom">15dp</dimen>
+
+
+    <!--nav_drawer_item-->
+    <dimen name="nav_drawer_item_text_size">18sp</dimen>
+    <dimen name="nav_drawer_item_height">50dp</dimen>
+    <dimen name="nav_drawer_item_marg_left">22dp</dimen>
+    <dimen name="nav_drawer_marg_for_recy">23dp</dimen>
+    <dimen name="nav_drawer_marg_for_line">20dp</dimen>
+
+    <!--Toolbar dimensions-->
+    <dimen name="toolbar_title_right_spacing">8dp</dimen>
+    <dimen name="tool_bar_title">23sp</dimen>
+    <dimen name="toolbar_search_item_width">32dp</dimen>
+    <dimen name="toolbar_search_item_height">33dp</dimen>
+    <dimen name="toolbar_search_item_rightpadding">12dp</dimen>
+    <dimen name="toolbar_search_text_spacing">4dp</dimen>
+    <dimen name="action_icon_text_size">26sp</dimen>
+    <dimen name="actionbar_leftpadding">9dp</dimen>
+    <dimen name="toolbar_search_textsize">14dp</dimen>
+    <dimen name="pb_icon_text_bottom_pading">20dp</dimen>
+    <dimen name="action_close_icon_Image_size">25dp</dimen>
+    <dimen name="action_search_icon_Image_size">22dp</dimen>
+    <dimen name="search_textview_spacing">4dp</dimen>
+    <dimen name="tool_bar_height">50dp</dimen>
+    <dimen name="action_bar_title">23sp</dimen>
+
+    <!--create account screen-->
+    <dimen name="create_account_enter_ph_no">17sp</dimen>
+    <dimen name="create_accoun_ph_no">20sp</dimen>
+    <dimen name="create_account_enter_ph_no_mar_top">39dp</dimen>
+    <dimen name="create_account_ph_no_mar_top">31dp</dimen>
+    <dimen name="create_account_ph_no_mar_right_or_left">27dp</dimen>
+    <dimen name="create_account_ph_no_to_close_button_mar_right">10dp</dimen>
+    <dimen name="create_account_dialer_margintop">11dp</dimen>
+    <dimen name="create_account_spacing_between_items_gridview">10dp</dimen>
+    <dimen name="create_account_margin_for_gridview">27dp</dimen>
+    <dimen name="create_account_register_height">47dp</dimen>
+
+    <!--gridview screen-->
+    <dimen name="gridview_item_height">65dp</dimen>
+    <dimen name="gridview_item_width">97dp</dimen>
+    <dimen name="gridview_item_text">36sp</dimen>
+
+    <!--account registration screen-->
+    <dimen name="acct_reg_border_width">1dp</dimen>
+    <dimen name="acct_reg_mar_root_ll">9dp</dimen>
+    <dimen name="acct_reg_edt_height">40dp</dimen>
+    <dimen name="acct_reg_mar_inner_ll">16dp</dimen>
+    <dimen name="acct_reg_edt_padding">13sp</dimen>
+    <dimen name="acct_reg_edt_margin">10dp</dimen>
+    <dimen name="acct_reg_edt_text_size">15sp</dimen>
+    <dimen name="acct_reg_tv_size">15sp</dimen>
+
+    <!--Thanks dialog-->
+    <dimen name="thanks_dg_height">150dp</dimen>
+    <dimen name="thanks_tv_size">24sp</dimen>
+    <dimen name="thanks_dg_margin_bottom">15sp</dimen>
+
+
+    <!--payments received-->
+    <dimen name="pay_rcv_recy_view_margin">8dp</dimen>
+    <dimen name="pay_rcv_float_btn_margin">15dp</dimen>
+
+    <!--payments adapter item screen-->
+    <dimen name="pay_adp_item_height">68dp</dimen>
+    <dimen name="pay_adp_item_com_tv_size">20sp</dimen>
+    <dimen name="pay_adp_item_com_det_tv_size">11sp</dimen>
+    <dimen name="pay_adp_item_marg_bottom">8dp</dimen>
+    <dimen name="pay_adp_item_ll_margin">12dp</dimen>
+    <dimen name="pay_adp_item_margin_top">4dp</dimen>
+    <dimen name="pay_adp_item_ll_margin_invoice">6dp</dimen>
+    <dimen name="pay_adp_item_ll_invoice_width">88dp</dimen>
+    <dimen name="pay_adp_item_ll_invoice_height">54dp</dimen>
+    <dimen name="pay_adp_item_ll_invoice_count_tv_size">24dp</dimen>
+    <dimen name="pay_adp_item_ll_invoices_tv_size">14dp</dimen>
+    <dimen name="pay_adp_item_ll_invoices_margin_top">4dp</dimen>
+    <dimen name="pay_adp_item_ll_invoices_margin_left">6dp</dimen>
+
+    <!--Company Details screen-->
+    <dimen name="cmpy_det_rel_marg">8dp</dimen>
+    <dimen name="cmpy_det_title_tv_size">20sp</dimen>
+    <dimen name="cmpy_det_title_marg_ll">17dp</dimen>
+    <dimen name="cmpy_det_tv_size">11sp</dimen>
+    <dimen name="cmpy_marg_top_detail_tv">10dp</dimen>
+    <dimen name="cmpy_marg_top_ll_mail">16dp</dimen>
+    <dimen name="cmpy_marg_top_rel_invoice">32dp</dimen>
+    <dimen name="cmpy_marg_top_rel_edit">45dp</dimen>
+    <dimen name="cmpy_det_rel_invoice_width">310dp</dimen>
+    <dimen name="cmpy_det_rel_invoice_height">53dp</dimen>
+    <dimen name="cmpy_det_rel_edit_width">62dp</dimen>
+    <dimen name="cmpy_det_rel_edit_height">52dp</dimen>
+    <dimen name="cmpy_det_tv_edit_size">13sp</dimen>
+
+    <!--contacts adapter size-->
+    <dimen name="con_adp_item_height">70dp</dimen>
+    <dimen name="con_adp_item_tv_name_size">20sp</dimen>
+    <dimen name="con_adp_item_tv_number_size">14sp</dimen>
+    <dimen name="con_adp_item_mar_bottom">8dp</dimen>
+    <dimen name="con_adp_item_ll_mar_left">15dp</dimen>
+
+    <!--tab text size-->
+    <dimen name="tab_text_size">16sp</dimen>
+
+    <!--customre entry form-->
+    <dimen name="cus_ent_frm_ll_mar">8dp</dimen>
+    <dimen name="cus_ent_frm_spn_ht">38dp</dimen>
+    <dimen name="cus_ent_frm_inv_tv_size">15sp</dimen>
+    <dimen name="cus_ent_frm_item1_mar_top">22dp</dimen>
+    <dimen name="cus_ent_frm_ll_mar_top">9dp</dimen>
+    <dimen name="cus_ent_frm_edt_tax_width">126dp</dimen>
+    <dimen name="cus_ent_frm_cancel_width">126dp</dimen>
+    <dimen name="cus_ent_frm_cancel_height">37dp</dimen>
+    <dimen name="cus_ent_frm_cancel_tv_size">19sp</dimen>
+    <dimen name="cus_ent_frm_cancel_mar_top">15dp</dimen>
+
+    <!--invoice detail-->
+    <dimen name="inv_det_toolbar_text_size">15sp</dimen>
+    <dimen name="inv_det_toolbar_text_bal_due">10sp</dimen>
+    <dimen name="inv_det_sub_items_mar_btm">5dp</dimen>
+    <dimen name="inv_det_sub_items_mar_left">50dp</dimen>
+    <dimen name="inv_det_sub_items_mar_right">25dp</dimen>
+    <dimen name="inv_det_edit_mar_top">30dp</dimen>
+
+</resources>

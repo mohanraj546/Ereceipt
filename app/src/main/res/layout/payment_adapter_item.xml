@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/border_acct_reg"
+    android:layout_height="@dimen/pay_adp_item_height"
+    android:layout_marginBottom="@dimen/pay_adp_item_marg_bottom">
+
+    <LinearLayout
+        android:id="@+id/ll_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/pay_adp_item_ll_margin"
+        android:orientation="vertical">
+
+    <com.eReceipt.app.utils.CustomTextView
+        android:id="@+id/tv_company_name_pay_item"
+        style="@style/helvetica_regular_font"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/create_account_enter_ph_no"
+        android:textSize="@dimen/pay_adp_item_com_tv_size"/>
+
+    <com.eReceipt.app.utils.CustomTextView
+        android:id="@+id/tv_company_details_pay_item"
+        style="@style/helvetica_regular_font"
+        android:singleLine="true"
+        android:layout_marginTop="@dimen/pay_adp_item_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/create_account_enter_ph_no"
+        android:textSize="@dimen/pay_adp_item_com_det_tv_size"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_invoice"
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/pay_adp_item_ll_invoice_width"
+        android:layout_height="@dimen/pay_adp_item_ll_invoice_height"
+        android:background="@drawable/border_invoice_count"
+        android:layout_margin="@dimen/pay_adp_item_ll_margin_invoice"
+        android:orientation="vertical">
+
+        <com.eReceipt.app.utils.CustomTextView
+            android:id="@+id/tv_invoice_count"
+            style="@style/helvetica_regular_font"
+            android:layout_marginTop="@dimen/pay_adp_item_ll_invoices_margin_top"
+            android:layout_marginLeft="@dimen/pay_adp_item_ll_invoices_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/pay_rcv_tool_bar_bg"
+            android:textSize="@dimen/pay_adp_item_ll_invoice_count_tv_size"/>
+
+        <com.eReceipt.app.utils.CustomTextView
+            android:id="@+id/tv_invoice"
+            android:text="@string/pay_adp_item_invoices"
+            style="@style/helvetica_regular_font"
+            android:layout_marginLeft="@dimen/pay_adp_item_ll_invoices_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/pay_rcv_tool_bar_bg"
+            android:textSize="@dimen/pay_adp_item_ll_invoices_tv_size"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

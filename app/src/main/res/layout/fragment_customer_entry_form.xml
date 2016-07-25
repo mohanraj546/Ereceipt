@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/create_account_ph_no">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_acct_reg"
+        android:layout_margin="@dimen/cus_ent_frm_ll_mar">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/cus_ent_frm_ll_mar"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                    android:background="@drawable/border_acct_reg"
+                    android:layout_marginBottom="@dimen/acct_reg_edt_margin">
+
+                <Spinner
+                    android:id="@+id/spn_companies"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cus_ent_frm_spn_ht">
+
+                </Spinner>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                <com.eReceipt.app.utils.CustomEditText
+                    android:layout_weight="0.5"
+                    android:id="@+id/edt_inv_num"
+                    style="@style/helvetica_regular_font"
+                    android:hint="@string/cus_entry_form_inv_hnt"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                    android:background="@drawable/border_acct_reg"
+                    android:paddingLeft="@dimen/acct_reg_edt_padding"
+                    android:inputType="number"
+                    android:textColor="@color/cust_entry_form_text_color"
+                    android:textSize="@dimen/cus_ent_frm_inv_tv_size"
+                    android:layout_marginRight="@dimen/cus_ent_frm_ll_mar"/>
+
+
+                    <com.eReceipt.app.utils.CustomEditText
+                        android:layout_weight="0.5"
+                        android:id="@+id/edt_inv_date"
+                        style="@style/helvetica_regular_font"
+                        android:hint="@string/cus_entry_form_date_hnt"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                        android:background="@drawable/border_acct_reg"
+                        android:paddingLeft="@dimen/acct_reg_edt_padding"
+                        android:inputType="date"
+                        android:textColor="@color/cust_entry_form_text_color"
+                        android:textSize="@dimen/acct_reg_edt_text_size"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_items"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/cus_ent_frm_cancel_mar_top">
+
+                <com.eReceipt.app.utils.CustomEditText
+                    android:id="@+id/edt_tax"
+                    style="@style/helvetica_regular_font"
+                    android:hint="@string/cus_entry_form_tax"
+                    android:layout_width="@dimen/cus_ent_frm_edt_tax_width"
+                    android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                    android:background="@drawable/border_acct_reg"
+                    android:paddingLeft="@dimen/acct_reg_edt_padding"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/create_account_enter_ph_no"
+                    android:textSize="@dimen/cus_ent_frm_inv_tv_size"
+                    />
+
+                <com.eReceipt.app.utils.CustomTextView
+                    android:id="@+id/tv_add_new_item"
+                    android:text="@string/cus_entry_form_add_item"
+                    style="@style/helvetica_bold_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/create_account_enter_ph_no"
+                    android:textSize="@dimen/cus_ent_frm_inv_tv_size"
+                    android:drawableRight="@drawable/add"
+                    android:gravity="center|end"
+                    android:layout_marginRight="@dimen/cus_ent_frm_ll_mar"
+                    android:drawablePadding="@dimen/cus_ent_frm_ll_mar"
+                    />
+                </LinearLayout>
+
+                <com.eReceipt.app.utils.CustomEditText
+                    android:id="@+id/edt_grand_total"
+                    style="@style/helvetica_regular_font"
+                    android:hint="@string/cus_entry_form_grand_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                    android:background="@drawable/border_acct_reg"
+                    android:paddingLeft="@dimen/acct_reg_edt_padding"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/create_account_enter_ph_no"
+                    android:textSize="@dimen/cus_ent_frm_inv_tv_size"
+                    android:layout_marginTop="@dimen/cus_ent_frm_ll_mar_top"
+                    />
+
+                <com.eReceipt.app.utils.CustomEditText
+                    android:id="@+id/edt_received_amount"
+                    style="@style/helvetica_regular_font"
+                    android:hint="@string/cus_entry_form_rcv_amt"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                    android:background="@drawable/border_acct_reg"
+                    android:paddingLeft="@dimen/acct_reg_edt_padding"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/create_account_enter_ph_no"
+                    android:textSize="@dimen/cus_ent_frm_inv_tv_size"
+                    android:layout_marginTop="@dimen/cus_ent_frm_ll_mar_top"
+                    />
+
+                <com.eReceipt.app.utils.CustomEditText
+                    android:id="@+id/edt_note"
+                    style="@style/helvetica_regular_font"
+                    android:hint="@string/cus_entry_form_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                    android:background="@drawable/border_acct_reg"
+                    android:paddingLeft="@dimen/acct_reg_edt_padding"
+                    android:inputType="text"
+                    android:textColor="@color/create_account_enter_ph_no"
+                    android:textSize="@dimen/cus_ent_frm_inv_tv_size"
+                    android:layout_marginTop="@dimen/cus_ent_frm_ll_mar_top"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cus_ent_frm_cancel_height"
+                    android:orientation="horizontal"
+                    android:gravity="end"
+                    android:layout_marginTop="@dimen/cus_ent_frm_cancel_mar_top">
+
+                    <com.eReceipt.app.utils.CustomTextView
+                        android:id="@+id/tv_cancel"
+                        style="@style/helvetica_bold_font"
+                        android:text="@string/cus_entry_form_cancel"
+                        android:layout_width="@dimen/cus_ent_frm_cancel_width"
+                        android:layout_height="@dimen/cus_ent_frm_cancel_height"
+                        android:background="@drawable/border_cancel"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/cus_ent_frm_cancel_tv_size"
+                        android:layout_marginRight="@dimen/cus_ent_frm_ll_mar"
+                        android:gravity="center"
+                        />
+
+                    <com.eReceipt.app.utils.CustomTextView
+                        android:id="@+id/tv_save"
+                        android:text="@string/cus_entry_form_save"
+                        style="@style/helvetica_bold_font"
+                        android:background="@drawable/border_save"
+                        android:layout_width="@dimen/cus_ent_frm_cancel_width"
+                        android:layout_height="@dimen/cus_ent_frm_cancel_height"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/cus_ent_frm_cancel_tv_size"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <com.eReceipt.app.utils.CustomTextView
+       android:id="@+id/tv_plz_enter_ph_no"
+       style="@style/helvetica_regular_font"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:textColor="@color/create_account_enter_ph_no"
+       android:layout_marginTop="@dimen/create_account_enter_ph_no_mar_top"
+       android:textSize="@dimen/create_account_enter_ph_no"
+       android:text="@string/create_account_enter_ph_no"/>
+
+    <RelativeLayout
+        android:id="@+id/fl_tv_ph_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_plz_enter_ph_no"
+        android:layout_marginTop="@dimen/create_account_ph_no_mar_top"
+        android:layout_marginRight="@dimen/create_account_ph_no_mar_right_or_left"
+        android:layout_marginLeft="@dimen/create_account_ph_no_mar_right_or_left">
+
+        <com.eReceipt.app.utils.CustomTextView
+            android:id="@+id/tv_phone_number"
+            style="@style/helvetica_regular_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/create_account_enter_ph_no"
+            android:textSize="@dimen/create_accoun_ph_no"
+            android:layout_marginRight="@dimen/create_account_ph_no_to_close_button_mar_right"
+            android:padding="@dimen/create_account_ph_no_to_close_button_mar_right"
+            android:layout_toLeftOf="@+id/iv_close"
+            />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/close"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/viewline"
+        android:layout_below="@+id/fl_tv_ph_no"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/create_account_enter_ph_no"
+        android:layout_marginRight="@dimen/create_account_ph_no_mar_right_or_left"
+        android:layout_marginLeft="@dimen/create_account_ph_no_mar_right_or_left"
+        />
+
+    <RelativeLayout
+        android:layout_below="@+id/viewline"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/create_account_dialer"
+        android:layout_marginTop="@dimen/create_account_dialer_margintop">
+
+        <GridView
+            android:id="@+id/gridview_dialer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:horizontalSpacing="@dimen/create_account_spacing_between_items_gridview"
+            android:verticalSpacing="@dimen/create_account_spacing_between_items_gridview"
+            android:layout_margin="@dimen/create_account_margin_for_gridview">
+        </GridView>
+
+        <RelativeLayout
+            android:id="@+id/rel_register"
+            android:layout_marginBottom="@dimen/create_account_margin_for_gridview"
+            android:layout_marginRight="@dimen/create_account_margin_for_gridview"
+            android:layout_marginLeft="@dimen/create_account_margin_for_gridview"
+            android:layout_below="@+id/gridview_dialer"
+            android:layout_width="match_parent"
+            android:background="@color/splash_background"
+            android:layout_height="@dimen/create_account_register_height">
+
+            <com.eReceipt.app.utils.CustomTextView
+                android:id="@+id/tv_register"
+                style="@style/helvetica_regular_font"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/create_accoun_ph_no"
+                android:text="@string/create_account_register"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

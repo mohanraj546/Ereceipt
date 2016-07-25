@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/border_acct_reg"
+    android:id="@+id/rel_contact_item"
+    android:layout_height="@dimen/con_adp_item_height"
+    android:layout_marginBottom="@dimen/con_adp_item_mar_bottom">
+
+    <LinearLayout
+        android:id="@+id/ll_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/con_adp_item_ll_mar_left">
+
+        <com.eReceipt.app.utils.CustomTextView
+            android:id="@+id/tv_contact_name"
+            style="@style/helvetica_regular_font"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/create_account_enter_ph_no"
+            android:textSize="@dimen/con_adp_item_tv_name_size"/>
+
+        <com.eReceipt.app.utils.CustomTextView
+            android:id="@+id/tv_contact_number"
+            style="@style/helvetica_regular_font"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/pay_adp_item_margin_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/create_account_enter_ph_no"
+            android:textSize="@dimen/con_adp_item_tv_number_size"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

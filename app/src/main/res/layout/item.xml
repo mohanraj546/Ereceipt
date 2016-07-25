@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.eReceipt.app.utils.CustomTextView
+        android:id="@+id/tv_item1"
+        android:text="Item1"
+        style="@style/helvetica_regular_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/create_account_enter_ph_no"
+        android:textSize="@dimen/cus_ent_frm_inv_tv_size"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_items"
+        android:layout_below="@+id/tv_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_acct_reg"
+        android:padding="@dimen/cus_ent_frm_ll_mar"
+        android:layout_marginTop="@dimen/cus_ent_frm_ll_mar_top"
+        android:orientation="vertical">
+
+        <com.eReceipt.app.utils.CustomEditText
+            android:id="@+id/edt_item"
+            style="@style/helvetica_regular_font"
+            android:hint="@string/cus_entry_form_item_hnt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cus_ent_frm_spn_ht"
+            android:background="@drawable/border_acct_reg"
+            android:paddingLeft="@dimen/acct_reg_edt_padding"
+            android:inputType="number"
+            android:textColor="@color/cust_entry_form_text_color"
+            android:textSize="@dimen/cus_ent_frm_inv_tv_size"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cus_ent_frm_spn_ht"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/cus_ent_frm_ll_mar_top"
+            android:weightSum="1">
+
+            <com.eReceipt.app.utils.CustomEditText
+                android:layout_weight="0.5"
+                android:id="@+id/edt_item_rate"
+                style="@style/helvetica_regular_font"
+                android:hint="@string/cus_entry_form_item_rate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                android:background="@drawable/border_acct_reg"
+                android:paddingLeft="@dimen/acct_reg_edt_padding"
+                android:inputType="numberDecimal"
+                android:textColor="@color/cust_entry_form_text_color"
+                android:textSize="@dimen/cus_ent_frm_inv_tv_size"
+                android:layout_marginRight="@dimen/cus_ent_frm_ll_mar"/>
+
+
+            <com.eReceipt.app.utils.CustomEditText
+                android:layout_weight="0.5"
+                android:id="@+id/edt_item_qty"
+                style="@style/helvetica_regular_font"
+                android:hint="@string/cus_entry_form_item_qty"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cus_ent_frm_spn_ht"
+                android:background="@drawable/border_acct_reg"
+                android:paddingLeft="@dimen/acct_reg_edt_padding"
+                android:inputType="number"
+                android:textColor="@color/cust_entry_form_text_color"
+                android:textSize="@dimen/acct_reg_edt_text_size"
+                />
+
+        </LinearLayout>
+
+        <com.eReceipt.app.utils.CustomEditText
+            android:id="@+id/edt_amount"
+            style="@style/helvetica_regular_font"
+            android:hint="@string/cus_entry_form_amount"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cus_ent_frm_spn_ht"
+            android:background="@drawable/border_acct_reg"
+            android:paddingLeft="@dimen/acct_reg_edt_padding"
+            android:inputType="numberDecimal"
+            android:textColor="@color/create_account_enter_ph_no"
+            android:textSize="@dimen/cus_ent_frm_inv_tv_size"
+            android:layout_marginTop="@dimen/cus_ent_frm_ll_mar_top"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,248 @@
+{
+  "payments_received":[
+    {
+      "companyName": "Anrak Aluminium",
+      "companyManufacturer": "Aluminiun Extrusion Manufacturers",
+      "invoiceCount":"45"
+    },
+    {
+      "companyName": "SV Manufacturing",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"67"
+    },
+    {
+      "companyName": "Wellness Zone",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"81"
+    },
+    {
+      "companyName": "Yeturu Biotech LTD",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"56"
+    },
+    {
+      "companyName": "Sri Vanapamu Vari Shop",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"61"
+    },
+    {
+      "companyName": "Anrak Aluminium",
+      "companyManufacturer": "Aluminiun Extrusion Manufacturers",
+      "invoiceCount":"45"
+    },
+    {
+      "companyName": "SV Manufacturing",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"67"
+    },
+    {
+      "companyName": "Wellness Zone",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"81"
+    },
+    {
+      "companyName": "Yeturu Biotech LTD",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"56"
+    },
+    {
+      "companyName": "Sri Vanapamu Vari Shop",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"61"
+    }
+  ],
+  "contacts_list" : [
+    {
+      "contactName": "Apparao",
+      "contactNumber": "9642101234"
+    },
+    {
+      "contactName": "Harish",
+      "contactNumber": "9875201234"
+    },
+    {
+      "contactName": "Kantarao",
+      "contactNumber": "9290176756"
+    },
+    {
+      "contactName": "Rajesh",
+      "contactNumber": "9090878787"
+    },
+    {
+      "contactName": "Santosh",
+      "contactNumber": "9898767654"
+    },
+    {
+      "contactName": "Suresh",
+      "contactNumber": "9876987654"
+    },
+    {
+      "contactName": "Ganesh",
+      "contactNumber": "9087654567"
+    },
+    {
+      "contactName": "Bhanu",
+      "contactNumber": "9797878798"
+    },
+    {
+      "contactName": "Varun",
+      "contactNumber": "9695949390"
+    },
+    {
+      "contactName": "Nagendra",
+      "contactNumber": "9890979890"
+    }
+  ],
+  "pending_invoices_list":[
+    {
+      "invoiceNumber": "00022-IN",
+      "invoiceDate": "15/06/16",
+      "invoiceAmount":"20000.00"
+    },
+    {
+      "invoiceNumber": "00025-IN",
+      "invoiceDate": "12/05/16",
+      "invoiceAmount":"10000.00"
+    },
+    {
+      "invoiceNumber": "00028-IN",
+      "invoiceDate": "25/04/16",
+      "invoiceAmount":"24000.00"
+    },
+    {
+      "invoiceNumber": "00032-IN",
+      "invoiceDate": "05/03/16",
+      "invoiceAmount":"12000.00"
+    },
+    {
+      "invoiceNumber": "00042-IN",
+      "invoiceDate": "17/02/16",
+      "invoiceAmount":"6200.00"
+    },
+    {
+      "invoiceNumber": "00012-IN",
+      "invoiceDate": "11/01/16",
+      "invoiceAmount":"4500.00"
+    },
+    {
+      "invoiceNumber": "00052-IN",
+      "invoiceDate": "15/12/15",
+      "invoiceAmount":"28000.00"
+    },
+    {
+      "invoiceNumber": "00029-IN",
+      "invoiceDate": "05/11/15",
+      "invoiceAmount":"8600.00"
+    },
+    {
+      "invoiceNumber": "00039-IN",
+      "invoiceDate": "27/10/15",
+      "invoiceAmount":"47000.00"
+    },
+    {
+      "invoiceNumber": "00041-IN",
+      "invoiceDate": "23/09/15",
+      "invoiceAmount":"2300.00"
+    }
+  ],
+  "completed_invoices_list":[
+    {
+      "invoiceNumber": "00022-IN",
+      "invoiceDate": "15/06/16",
+      "invoiceAmount":"20000.00"
+    },
+    {
+      "invoiceNumber": "00025-IN",
+      "invoiceDate": "12/05/16",
+      "invoiceAmount":"10000.00"
+    },
+    {
+      "invoiceNumber": "00028-IN",
+      "invoiceDate": "25/04/16",
+      "invoiceAmount":"24000.00"
+    },
+    {
+      "invoiceNumber": "00032-IN",
+      "invoiceDate": "05/03/16",
+      "invoiceAmount":"12000.00"
+    },
+    {
+      "invoiceNumber": "00042-IN",
+      "invoiceDate": "17/02/16",
+      "invoiceAmount":"6200.00"
+    },
+    {
+      "invoiceNumber": "00012-IN",
+      "invoiceDate": "11/01/16",
+      "invoiceAmount":"4500.00"
+    },
+    {
+      "invoiceNumber": "00052-IN",
+      "invoiceDate": "15/12/15",
+      "invoiceAmount":"28000.00"
+    }
+  ],
+  "archive_invoices_list":[
+    {
+      "invoiceNumber": "00022-IN",
+      "invoiceDate": "15/06/16",
+      "invoiceAmount":"20000.00"
+    },
+    {
+      "invoiceNumber": "00025-IN",
+      "invoiceDate": "12/05/16",
+      "invoiceAmount":"10000.00"
+    },
+    {
+      "invoiceNumber": "00028-IN",
+      "invoiceDate": "25/04/16",
+      "invoiceAmount":"24000.00"
+    },
+    {
+      "invoiceNumber": "00032-IN",
+      "invoiceDate": "05/03/16",
+      "invoiceAmount":"12000.00"
+    },
+    {
+      "invoiceNumber": "00042-IN",
+      "invoiceDate": "17/02/16",
+      "invoiceAmount":"6200.00"
+    }
+  ],
+  "items_list":[
+    {
+      "s.no":"1",
+      "item name":"item1",
+      "qty":"10",
+      "rate":"20",
+      "amount":"200.00"
+    },
+    {
+      "s.no":"2",
+      "item name":"item2",
+      "qty":"20",
+      "rate":"20",
+      "amount":"400.00"
+    },
+    {
+      "s.no":"3",
+      "item name":"item3",
+      "qty":"30",
+      "rate":"20",
+      "amount":"600.00"
+    },
+    {
+      "s.no":"4",
+      "item name":"item4",
+      "qty":"40",
+      "rate":"20",
+      "amount":"800.00"
+    },{
+      "s.no":"5",
+      "item name":"item5",
+      "qty":"50",
+      "rate":"20",
+      "amount":"1000.00"
+    }
+  ]
+}

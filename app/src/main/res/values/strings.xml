@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">eReceipt</string>
+
+    <!--font related strings-->
+    <string name="susabold_font">susa-bold</string>
+    <string name="helveticabold_font">HelveticaBd</string>
+    <string name="helvetica_font">Helvetica</string>
+    <string name="helvetica_font_family">ttf</string>
+    <string name="susabold_font_family">otf</string>
+    <string name="icomoon_font">icomoon</string>
+    <string name="icomoon_font_family">ttf</string>
+
+    <!--navigation drawer list-->
+    <string name="nav_drawer_customers">My Customers</string>
+    <string name="nav_drawer_vendors">My Vendors</string>
+    <string name="nav_drawer_entry_form">Entry Form</string>
+    <string name="nav_drawer_pay_rcv">Payments Received</string>
+    <string name="nav_drawer_pay_gvn">Payments Given</string>
+    <string name="nav_drawer_my_acct">My Account</string>
+    <string name="nav_drawer_log_out">Log Out</string>
+    <string name="nav_drawer_vendor_entry">Vendor Entry Form</string>
+    <string name="nav_drawer_customer_entry">Customer Entry Form</string>
+
+    <!-- drawer strings-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--splash screen-->
+    <string name="splash_receipt">Receipt</string>
+
+    <!--Register screen-->
+    <string name="create_account_title">Create Account</string>
+    <string name="create_account_enter_ph_no">Please enter your phone number</string>
+    <string name="create_account_register">Register</string>
+    <string name="create_account_valid_ph_no">Please enter your mobile number correctly</string>
+
+    <!--Activation code screen-->
+    <string name="activation_code_title">Activation</string>
+    <string name="activation_code_account">Activate Account</string>
+    <string name="activation_code_enter_actv_code">Please enter your activation code</string>
+    <string name="activation_code_valid_code">Please enter valid activation code</string>
+    
+    <!--Passcode screen-->
+    <string name="passcode_title">Newpasscode</string>
+    <string name="passcode_confirm">Confirm</string>
+    <string name="passcode_enter_passcode">Please select a 4 digit passcode</string>
+    <string name="passcode_valid">Please enter valid passcode</string>
+
+    <!--Confirm passcode screen-->
+    <string name="confirm_passcode_title">Confirmpasscode</string>
+    <string name="confirm_passcode_enter_cnf_code">Re-enter your 4 digit passcode</string>
+    <string name="confirm_passcode_valid">Passcode doesn\'t match</string>
+
+    <!--Account Registration screen-->
+    <string name="acct_reg_title">Account Registration</string>
+    <string name="acct_reg_edt_hint_name">Name</string>
+    <string name="acct_reg_edt_hint_desg">Designation</string>
+    <string name="acct_reg_edt_hint_abt_desg">About Designation</string>
+    <string name="acct_reg_edt_hint_mobile">Mobile</string>
+    <string name="acct_reg_edt_hint_email">Email</string>
+    <string name="acct_reg_personal_profile">Personal Profile</string>
+    <string name="acct_reg_company_profile">Company Profile</string>
+    <string name="acct_reg_edt_hint_company_name">Company Name</string>
+    <string name="acct_reg_edt_hint_company_desc">Description</string>
+    <string name="acct_reg_edt_hint_address">Address</string>
+    <string name="acct_reg_save">Save</string>
+    <string name="acct_reg_plz_enr_name">Please enter your name</string>
+    <string name="acct_reg_plz_enr_desg">Please enter your designation</string>
+    <string name="acct_reg_plz_enr_abt_desg">Please enter about your designation</string>
+    <string name="acct_reg_plz_enr_mob">Please enter your mobile number</string>
+    <string name="acct_reg_plz_enr_email">Please enter your email</string>
+    <string name="acct_reg_plz_enr_cmpy_name">Please enter your company name</string>
+    <string name="acct_reg_plz_enr_addr">Please enter your company address</string>
+    <string name="acct_reg_plz_enr_cmpy_mobile">Please enter your company\'s mobile number</string>
+    <string name="acct_reg_plz_enr_cmpy_email">Please enter your company\'s email</string>
+    <string name="acct_reg_plz_enr_valid_mob">Please enter valid mobile number</string>
+    <string name="acct_reg_plz_enr_valid_email">Please enter valid email</string>
+
+    <!--thanks dilaog-->
+    <string name="thanks_dialog_title">Thank you</string>
+    <string name="thanks_dialog_reg">You have been successfully registered</string>
+
+    <!--payments received-->
+    <string name="pay_rcv_title">Payments Received</string>
+
+    <!--payments given-->
+    <string name="pay_gvn_title">Payments Given</string>
+
+    <!--payments adapter item screen-->
+    <string name="pay_adp_item_invoices">Invoices</string>
+
+    <!--company detail screen-->
+    <string name="cmpy_det_tv_cmpy_detail">Aluminium Fabricators,Aluminium Composite Panel Dealers \nAluminium Manufacturers,Aluminium Composite Panel \nFabricators,Aluminium Sheet Manufacturers,\nAluminium Structure Manufacturers</string>
+    <string name="cmpy_det_tv_cmpy_addr">#47-3-9/4,main road,Dwaraka Nagar,\nVisakhapatnam-530016,</string>
+    <string name="cmpy_det_tv_invoice">Invoices</string>
+    <string name="cmpy_det_tv_contacts">Contacts</string>
+    <string name="cmpy_det_tv_edit">Edit</string>
+    <string name="cmpy_det_tv_remove">Remove</string>
+
+    <!--ContactList screen-->
+    <string name="cont_list_cont_title">Contacts</string>
+
+    <!--Invoices list screen-->
+    <string name="inv_list_title">Invoices</string>
+
+    <!--Customer Entry Form-->
+    <string name="cus_entry_form_title">Customer Entry Form</string>
+    <string name="ven_entry_form_title">Vendor Entry Form</string>
+    <string name="cus_entry_form_inv_hnt">Invoice Number</string>
+    <string name="cus_entry_form_date_hnt">Date</string>
+    <string name="cus_entry_form_item_hnt">Item</string>
+    <string name="cus_entry_form_item_rate">Rate</string>
+    <string name="cus_entry_form_item_qty">Qty</string>
+    <string name="cus_entry_form_amount">Amount</string>
+    <string name="cus_entry_form_tax">Tax</string>
+    <string name="cus_entry_form_add_item">Add New Item</string>
+    <string name="cus_entry_form_grand_total">Grand Total</string>
+    <string name="cus_entry_form_rcv_amt">Received Amount</string>
+    <string name="cus_entry_form_note">Note</string>
+    <string name="cus_entry_form_cancel">Cancel</string>
+    <string name="cus_entry_form_save">Save</string>
+
+    <!--add company screen-->
+    <string name="add_cmpy_title">Add Company</string>
+    <string name="add_cont_title">Add Contact</string>
+
+    <!-- rupee symbol -->
+    <string name="rupee_symbol">\u20B9</string>
+
+    <!--Invoice Detail screen-->
+    <string name="inv_det_sub_total">Sub Total</string>
+    <string name="inv_det_tax">Tax(5%)</string>
+    <string name="inv_det_others">Others</string>
+    <string name="inv_det_grand_total">Grand Total</string>
+    <string name="inv_det_rec_amt">Received Amount</string>
+    <string name="inv_det_bal_due">Balance Due</string>
+    <string name="inv_det_note">Note:</string>
+
+    <!--invoice detail strings-->
+    <string-array name="inv_det_array">
+        <item>S.no.</item>
+        <item>Items</item>
+        <item>Qty</item>
+        <item>Rate</item>
+        <item>Amount</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,54 @@
+{
+  "payments_given": [
+    {
+      "companyName": "Anrak Aluminium",
+      "companyManufacturer": "Aluminiun Extrusion Manufacturers",
+      "invoiceCount":"45"
+    },
+    {
+      "companyName": "SV Manufacturing",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"67"
+    },
+    {
+      "companyName": "Wellness Zone",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"81"
+    },
+    {
+      "companyName": "Yeturu Biotech LTD",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"56"
+    },
+    {
+      "companyName": "Sri Vanapamu Vari Shop",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"61"
+    },
+    {
+      "companyName": "Anrak Aluminium",
+      "companyManufacturer": "Aluminiun Extrusion Manufacturers",
+      "invoiceCount":"45"
+    },
+    {
+      "companyName": "SV Manufacturing",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"67"
+    },
+    {
+      "companyName": "Wellness Zone",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"81"
+    },
+    {
+      "companyName": "Yeturu Biotech LTD",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"56"
+    },
+    {
+      "companyName": "Sri Vanapamu Vari Shop",
+      "companyManufacturer": "Herbal Product Dealers",
+      "invoiceCount":"61"
+    }
+  ]
+}
